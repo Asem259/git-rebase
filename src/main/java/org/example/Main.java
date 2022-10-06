@@ -9,5 +9,12 @@ public class Main {
         System.out.println("Mit seinem 1 side Branch vom Masterbranch!!!");
 
         System.out.println("Hello vom asem branch!");
+
+        int result = addValue(1,2);
+        System.out.println("Result : " + result);
+    }
+
+    public static int addValue(int value, int value2){
+        return (value+value2);
     }
 }
